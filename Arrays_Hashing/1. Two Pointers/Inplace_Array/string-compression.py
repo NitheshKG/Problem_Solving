@@ -7,7 +7,7 @@ class Solution:
         while read < n:
 
             char = chars[read]
-            count = 0 
+            count = 0
 
             while read < n and chars[read] == char:
                 read += 1
@@ -20,5 +20,5 @@ class Solution:
                 for digit in str(count):
                     chars[write] = digit
                     write += 1
-                
+
         return write
